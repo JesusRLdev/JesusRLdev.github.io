@@ -10,46 +10,11 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
           rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
-    </script>
-
-    <style>
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Fondo principal */
-        #inicio {
-            background-image: url('img/fondo.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-        }
-
-        /* Caja transparente */
-        .contenido-principal {
-            background-color: rgba(255, 255, 255, 0.88);
-            border-radius: 20px;
-        }
-
-        /* Imagen de perfil */
-        .perfil-img {
-            width: 180px;
-            height: 180px;
-            object-fit: cover;
-            border: 5px solid white;
-        }
-
-    </style>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/Proyectos.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </head>
 
 <body>
@@ -180,75 +145,7 @@
                 Proyectos
             </h2>
 
-            <div class="row">
-
-                <!-- Proyecto 1 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card shadow h-100">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">
-                                bmc-amozoc
-                            </h5>
-
-                            <p class="card-text">
-                                Desarrollo de pagina para mostrar información de la empresa BMC
-                                utilizando JavaScript, HTML y CSS. y se implemento en un hosting 
-                                hostinger con el dominio bmc-amozoc.com, el proyecto se desarrollo
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Proyecto 2 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card shadow h-100">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">
-                                Dashboard Odoo
-                            </h5>
-
-                            <p class="card-text">
-                                Módulo de control interno
-                                para Odoo 18.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Proyecto 3 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card shadow h-100">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">
-                                Aplicación Desktop
-                            </h5>
-
-                            <p class="card-text">
-                                Sistema de control desarrollado
-                                en C# y MySQL.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="row" id="listaProyectos">
             </div>
 
         </div>
