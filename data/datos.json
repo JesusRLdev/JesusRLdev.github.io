@@ -13,6 +13,13 @@
             "tecnologias": "Javascript, git, mariadDB, servdor ubuntu 14, apache, graphql, maven, spring boot y java.",
             "imagen":"img/proyectos/serves.png",
             "url":"https://chuygpl.github.io"
+        },
+        {
+            "nombre":"Base de datos",
+            "descripcion": "Ejemplo de una base de datos relacional en mariadb.",
+            "tecnologias": "MariaDB.",
+            "imagen":"img/proyectos/bd.png",
+            "url":"https://chuygpl.github.io"
         }
     ]
 }
