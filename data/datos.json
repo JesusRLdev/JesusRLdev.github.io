@@ -3,14 +3,14 @@
        {
             "nombre":"bmc-amozoc",
             "descripcion": "Página que muestra los productos y servicios que ofrece BMC cuenta con un panel administrativo.",
-            "tecnologias": "Javascript, git, mariadDB, servidor debian13, apache, graphql y nodejs.",
+            "tecnologias": "JavaScript, Git, MariaDB, Debian 13, Apache, GraphQL y Node.js.",
             "imagen":"img/proyectos/bmc-amozoc.png",
             "url":"https://bmc-amozoc.com.mx/"
         },
         {
             "nombre":"ServES",
             "descripcion": "Sistema para la gestión de servicios brindados a gasolineras.",
-            "tecnologias": "Javascript, git, mariadDB, servdor ubuntu 14, apache, graphql, maven, spring boot y java.",
+            "tecnologias": "JavaScript, Git, MariaDB, Ubuntu 14, Apache, GraphQL, Maven, Spring Boot y Java.",
             "imagen":"img/proyectos/serves.png",
             "url":"https://chuygpl.github.io"
         },

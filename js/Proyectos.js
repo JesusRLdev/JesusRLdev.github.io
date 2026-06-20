@@ -28,30 +28,37 @@ export default class Proyectos {
 
         return `
             <div class="col-md-4 mb-4">
-                <div class="card shadow h-100">
+                <article class="card proyecto-card shadow h-100">
 
                     <img src="${this.imagen}"
-                         class="card-img-top"
-                         alt="${this.nombre}">
-                    <a href="${this.url}" target="_blank" class="btn btn-primary">Ver Proyecto</a>
+                         class="card-img-top proyecto-card-img"
+                         alt="Captura del proyecto ${this.nombre}"
+                         loading="lazy">
 
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
 
-                        <h5 class="card-title">
+                        <h3 class="card-title h5">
                             ${this.nombre}
-                        </h5>
+                        </h3>
 
-                        <p class="card-text">
+                        <p class="card-text flex-grow-1">
                             ${this.descripcion}
                         </p>
 
-                        <small class="text-muted">
+                        <p class="text-muted small mb-3">
                             ${this.tecnologias}
-                        </small>
+                        </p>
+
+                        <a href="${this.url}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-primary mt-auto align-self-start">
+                            Ver proyecto
+                        </a>
 
                     </div>
 
-                </div>
+                </article>
             </div>
         `;
     }

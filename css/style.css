@@ -27,3 +27,12 @@ body {
     object-fit: cover;
     border: 5px solid white;
 }
+
+.proyecto-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.proyecto-card .card-body {
+    gap: 0.25rem;
+}
