@@ -34,7 +34,7 @@
                 "Diseño e implementación de bases de datos relacionales con MariaDB.",
                 "Creación de nuevas tablas y relaciones para el sistema ServES.",
                 "Mantenimiento y actualización de sistemas existentes.",
-                "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
+                "Despliegue y mantenimiento en servidores Linux (Ubuntu) con Apache y Tomcat 7."
             ]
         }
     ],
