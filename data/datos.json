@@ -56,7 +56,7 @@
         {
             "nombre": "BMC Amozoc",
             "rol": "Desarrollador full stack",
-            "periodo": "2023 – 2024",
+            "periodo": "2025-08 – 2025-10",
             "estado": "En producción",
             "problema": "El cliente necesitaba mostrar productos y servicios en línea y administrar el contenido sin depender de un tercero.",
             "descripcion": "Sitio público con panel administrativo; backend con Node.js y GraphQL; base de datos MariaDB; despliegue en Debian con Apache.",
@@ -67,8 +67,8 @@
         },
         {
             "nombre": "ServES",
-            "rol": "Desarrollador backend / full stack",
-            "periodo": "2021 – 2023",
+            "rol": "Progtramador",
+            "periodo": "2022-01-30 – 2025-10-06",
             "estado": "En uso",
             "problema": "Gestión de servicios prestados a gasolineras: registro, seguimiento y administración centralizada.",
             "descripcion": "API y lógica de negocio con Spring Boot y Java; GraphQL; MariaDB; despliegue en Ubuntu con Apache.",
