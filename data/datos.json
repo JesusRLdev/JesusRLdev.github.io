@@ -1,7 +1,7 @@
 {
     "experiencia": [
         {
-            "empresa": "Desarrollo de software · Freelance",
+            "empresa": "Dharma Software · Freelance",
             "cargo": "Desarrollador full stack",
             "periodo": "2013-03-14 – actual",
             "ubicacion": "Tehuacán, Puebla",
@@ -35,6 +35,17 @@
                 "Creación de nuevas tablas y relaciones para el sistema ServES.",
                 "Mantenimiento y actualización de sistemas existentes.",
                 "Despliegue y mantenimiento en servidores Linux (Ubuntu) con Apache y Tomcat 7."
+            ]
+        },
+        {
+            "empresa": "Esc. Sec. Jorge L. Tamayo",
+            "cargo": "Pasante de desarrollo de sistemas",
+            "periodo": "2012 – 2013",
+            "ubicacion": "Tehuacán, Puebla",
+            "logros": [
+                "Desarrollo de sistema de Inventario de equipo de computo en cada aula de la institución.",
+                "Módulos de usuarios, roles y permisos en el sistema.",
+                "Diseño e implementación de base de datos relacional con MySQL."
             ]
         }
     ],
@@ -76,6 +87,18 @@
             "tecnologias": "Java, Spring Boot, Maven, GraphQL, MariaDB, JavaScript, Git",
             "imagen": "img/proyectos/serves.png",
             "url": "https://serves.metrologiaaplicada.com/ServesTodo/serves_vistas/login.html"
+        },
+        {
+            "nombre": "Sistema de Inventario de equipo de computo",
+            "rol": "Pasante de desarrollo de sistemas",
+            "periodo": "2012 – 2013",
+            "estado": "En uso",
+            "problema": "La institución necesitaba un sistema para llevar el control del inventario de equipo de computo en cada aula asi como su estado al entrar cada turno.",
+            "descripcion": "Sistema web con PHP y MySQL; módulos de usuarios, roles y permisos; despliegue en servidor local.",
+            "resultado": "Sistema implementado y utilizado para la gestión del inventario de equipo de computo. respinsable de grupo y profesor que revisaba el estado del equipo de computo.",
+            "tecnologias": "MySQL, c#",
+            "imagen": "img/proyectos/inventario.png",
+            "url": ""
         }
     ]
 }
