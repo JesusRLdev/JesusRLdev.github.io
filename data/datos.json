@@ -57,7 +57,8 @@
     {
       "titulo": "Ingeniería en Sistemas Computacionales",
       "institucion": "Instituto de Estudios Superiores del Estado (IESE)",
-      "periodo": "2008 – 2013"
+      "periodo": "2008 – 2013",
+      "imagen": "img/formacion/iese.png"
     }
   ],
   "habilidades": {

@@ -52,6 +52,7 @@ function crearFormacion(formacion = []) {
             <div class="card h-100 shadow-sm border-0">
 
                 <div class="card-body">
+                    <img src="${item.imagen}" alt="${item.titulo}" class="img-fluid mb-3" style="max-height: 100px; object-fit: contain;">
 
                     <h3 class="h5 card-title">
                         ${item.titulo}
