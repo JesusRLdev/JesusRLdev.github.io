@@ -73,11 +73,13 @@
       "JavaScript",
       "HTML5",
       "CSS3",
-      "Bootstrap"
+      "Bootstrap",
+      "jQuery"
     ],
     "basesDeDatos": [
       "MariaDB",
       "MySQL",
+      "MongoDB",
       "Diseño de bases de datos relacionales",
       "Consultas SQL"
     ],

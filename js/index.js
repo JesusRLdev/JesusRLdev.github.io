@@ -47,7 +47,7 @@ function crearTimeline(experiencia = []) {
 function crearFormacion(formacion = []) {
 
     return formacion.map(item => `
-        <div class="col-md-6 mb-4">
+        <div class="col-md-12 mb-4" style="text-align: center;">
 
             <div class="card h-100 shadow-sm border-0">
 
