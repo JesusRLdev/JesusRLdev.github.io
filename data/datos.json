@@ -32,8 +32,7 @@
       "ubicacion": "Tehuacán, Puebla",
       "logros": [
         "Desarrollo y mantenimiento del sistema ServES para la administración de servicios especializados.",
-        "Implementación de módulos de usuarios, roles y permisos.",
-        "Diseño e implementación de bases de datos relacionales con MariaDB.",
+        "Implementación de nuevos módulos con roles y permisos por usuario.",
         "Diseño de nuevas tablas, relaciones y consultas SQL para nuevas funcionalidades.",
         "Mantenimiento evolutivo y correctivo de aplicaciones empresariales.",
         "Despliegue y mantenimiento de aplicaciones en servidores Ubuntu con Apache y Tomcat 7."
