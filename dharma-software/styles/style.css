@@ -72,8 +72,7 @@ header .navbar .navbar-toggler:focus {
 }
 
 .logo-hero {
-    max-width: min(100%, 300px);
-    width: min(100%, 300px);
+    width: auto;
     height: auto;
 }
 
