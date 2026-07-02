@@ -57,8 +57,8 @@ async function obtenerDatos() {
             if (contactoContainer) {
                 contactoContainer.innerHTML = `
                     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:${resultado.contacto.correo}">${resultado.contacto.correo}</a></p>
-                    <p><i class="fas fa-phone"></i> Teléfono: ${resultado.contacto.telefono}</p>
-                    <p><i class="fab fa-whatsapp"></i> WhatsApp: ${resultado.contacto.whatsapp}</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:${resultado.contacto.telefono}">${resultado.contacto.telefono}</a></p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/${resultado.contacto.whatsapp}" target="_blank">${resultado.contacto.whatsapp}</a></p>
                     <p><i class="fas fa-map-marker-alt"></i> ${resultado.contacto.direccion}</p>
                 `;
             }
