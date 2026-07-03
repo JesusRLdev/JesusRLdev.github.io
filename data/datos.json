@@ -39,6 +39,18 @@
       ]
     },
     {
+      "empresa": "Escuela primaria Emancipación",
+      "cargo": "Ingeniero de Sistemas",
+      "periodo": "2024-01-04 – 2025-10-06",
+      "ubicacion": "Puebla, Puebla",
+      "logros": [
+        "Implementación de una sala de computación equipada con computadoras y software educativo.",
+        "Capacitación al personal docente para integrar la tecnología en sus métodos de enseñanza.",
+        "Cableado estructurado para conectar los equipos de cómputo.",
+        "Configuración de la red local y acceso a internet para los equipos de cómputo."
+      ]
+    },
+    {
       "empresa": "Escuela Secundaria Jorge L. Tamayo",
       "cargo": "Pasante de Desarrollo de Sistemas",
       "periodo": "2012 – 2013",
@@ -151,6 +163,22 @@
         "MySQL"
       ],
       "imagen": "../img/proyectos/default.png",
+      "url": ""
+    },
+    {
+      "nombre": "Sala de Computación para Escuela Primaria",
+      "rol": "Ingeniero de Sistemas",
+      "periodo": "2024-01-04 – 2025-10-06",
+      "estado": "Implementado",
+      "problema": "La escuela no contaba con una sala de computación, limitando el acceso de los estudiantes a recursos digitales.",
+      "descripcion": "Implementación de una sala de computación equipada con computadoras y software educativo, capacitación al personal docente y configuración de la red local.",
+      "resultado": "Sala de computación operativa, mejorando el aprendizaje de los estudiantes y facilitando la integración de la tecnología en la enseñanza.",
+      "tecnologias": [
+        "Computadoras",
+        "Software educativo",
+        "Cabliado estructurado"
+      ],
+      "imagen": "../img/proyectos/esc-prim-emancipacion.jpeg",
       "url": ""
     }
   ]
